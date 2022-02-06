@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+
+
+
+
+nav {
+  
+    display: flex;
+    justify-content: center;
+
+    background: rgb(38 73 100);
+    color: white;
+    height: 3pc;
+
+}
+
+.crumbs ol {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1%;
+    
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 100px;
+    color: white;
+    margin: 0;
+    padding-top: 15pc;
+    color:white;
+
+}
+.crumb {
+    display: inline-block;
+    margin-left: 20pc;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.voirpanier {
+    width: 4%;
+    height: 1%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 10px;
+        background: rgb(51, 104, 218);
+        border-radius: 6%;
+        animation-duration: 1s;
+        z-index: 8;
+        
+}
+.voirpanier:hover{
+    animation-name: example;
+    height: 8%;
+
+}
+
+@keyframes example {
+    from { height: 1%;}
+    to {height: 8%;}
+  }
+
+.shop{
+    height: 90%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    nav {
+      background-attachment: scroll;
+    }
+}
+
+.containerAchat{
+    margin-left: 16%;
+    margin-right: 10%;
+}
+.article{
+    float: left;
+    width: 45vh;
+    margin-right: 18%;
+
+}
+
+.typing{
+color: #7535dc;
+}

@@ -1,0 +1,41 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.choiseColor{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.desc{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    width: 70vh;
+    float: left;
+}
+
+.alice-carousel__dots{
+    display: none;
+}
+.mini{
+    width: auto;
+    height: 250px;
+}
+#back{
+    height: 80px;
+}
+#contBack{
+    display: flex;
+}
+.alice-carousel__prev-btn-wrapper{
+    width: 50%;
+}
+
+.alice-carousel__next-btn-wrapper{
+    width: 50%;
+}
+.btn_add{
+    height: 60%;
+    float: left;
+    width: 20%;
+    margin: 0;
+}
